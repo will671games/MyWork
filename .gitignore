@@ -1,0 +1,19 @@
+# Environment variables
+.env
+config.env
+
+# IDE
+.idea/
+.vscode/
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+

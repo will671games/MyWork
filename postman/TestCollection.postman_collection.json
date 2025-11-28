@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "5cf953e2-a28d-41f4-a872-1fb93bd95c27",
+		"name": "TestCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46707936",
+		"_collection_link": "https://willkoffe-6407842.postman.co/workspace/testing~85e8af6b-67ef-4f40-9bfc-6665c76521eb/collection/46707936-5cf953e2-a28d-41f4-a872-1fb93bd95c27?action=share&source=collection_link&creator=46707936"
+	},
+	"item": [
+		{
+			"name": "Create wallet",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Key",
+						"value": "Content-Type",
+						"type": "text"
+					},
+					{
+						"key": "Value",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"balance\": 1000.50\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/wallets",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"wallets"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
